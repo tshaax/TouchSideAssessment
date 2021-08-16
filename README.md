@@ -7,7 +7,7 @@ The project is a Console application that accepts text file and print out the fo
 # Performance 
 The project uses dictionaries instead of using arrays because it lookups items based on a key value and not by index.
 Furthermore, the project optimized the reading of the file content using streamreader which is more effective in reding large files.
-It also used for loops instead of foreach to iterate the KeyValuePair on the dictionary. 
+The for loops were used instead of foreach to iterate the KeyValuePair on the dictionary. 
 
 The peformance can be further be improved by substituting the LINQ queries with for loops index element. 
 
